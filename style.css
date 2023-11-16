@@ -1,0 +1,42 @@
+body{
+    background-color: #AA7777;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    align-items: center;
+    border-radius: 20px;
+}
+
+input {
+    width: 400px;
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    background-color: aqua;
+}
+
+.input {
+    width: 80px;
+    border-Radius: 20px;
+}
+
+.informacoes {
+    color: black;
+}
+
+tr {
+    color: red;
+    text-align: center;
+    align-items: center;
+}
+
+td {
+    color: #CCC
+}
