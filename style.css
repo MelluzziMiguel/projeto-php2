@@ -1,5 +1,5 @@
 body{
-    background-color: #AA7777;
+    background-color: #BBB;
 }
 
 form {
@@ -7,7 +7,14 @@ form {
     flex-direction: column;
     text-align: center;    
     align-items: center;
+
+
+}
+
+form input {
     border-radius: 20px;
+    border: none;
+    padding: 8px;
 }
 
 input {
@@ -17,9 +24,11 @@ input {
 
 .buttons {
     display: flex;
-    justify-content: space-around;
-    width: 400px;
-    background-color: aqua;
+    flex-direction: column;
+}
+
+.buttons input{
+    cursor: pointer;
 }
 
 .input {
@@ -38,5 +47,5 @@ tr {
 }
 
 td {
-    color: #CCC
+    color: green;
 }

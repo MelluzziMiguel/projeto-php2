@@ -67,26 +67,26 @@ if(!empty($selecionado)){
 <html>
     <head>
         <title>Projeto PHP Miguel</title>
-
         <link rel="stylesheet" href="style.css">
         </head>
     <body>
     <form name = "func" method = "post" >
-        <class="buttons">
             <label>ID</label>
-            <input type ="text" name = "idi"value="<?php echo $id; ?>" disabled/><br />
-            <input type ="hidden" name = "id" value="<?php echo $id; ?>"/>
+            <input type ="text" name = "idi"  value="<?php echo $id; ?>" disabled/><br />
+            <input type ="hidden" name = "id"  value="<?php echo $id; ?>"/>
             <label>Nome</label>
-            <input type ="text" name = "nome" value="<?php echo $nome;?>"/><br />
+            <input type ="text" name = "nome" placeholder="Digite o Nome do funcionario" value="<?php echo $nome;?>"/><br />
             <label>CPF</label>
-            <input type ="text" name = "cpf" value="<?php echo $cpf;?>"/><br />
-            <input type ="submit" name = "botao" value = "Cadastrar" />
-            <input type ="submit" name = "botao" value = "Excluir" />
-            <br/>
-            <input type ="text" name = "pesquisa" />
-            <input type ="submit" name ="botao" value = "Pesquisar" />
-            <input type ="submit" name ="botao" value = "Alterar" />
-        </class>
+            <input type ="text" name = "cpf" placeholder="Digite o CPF do funcionario" value="<?php echo $cpf;?>"/><br />
+
+            <div class="buttons">
+                <input type ="submit" name = "botao" value = "Cadastrar" />
+                <input type ="submit" name = "botao" value = "Excluir" />
+                <br/>
+                <input type ="text" name = "pesquisa" placeholder="Digite o Nome do funcionario" />
+                <input type ="submit" name ="botao" value = "Pesquisar" />
+                <input type ="submit" name ="botao" value = "Alterar" />
+            </div>
     </form>
 
     <table>
